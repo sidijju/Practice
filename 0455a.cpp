@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
   int n; cin >> n;
-  int arr[n]; vector<int> cnt(100001); vector<int> dp(100001);
+  int arr[n]; vector<long long> cnt(100001); vector<long long> dp(100001);
   for(int i = 0; i < n; i ++){
     cin >> arr[i];
     cnt[arr[i]]++;
